@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Website Security Audit Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Campus Website Security Audit Dashboard</h1>
+      <p>Real-time overview of vulnerabilities, security score, and audit results</p>
+    </div>
+    <div>
+      <p id="date"></p>
+    </div>
+  </header>
+
+  <section class="container">
+
+    <div class="card">
+      <h2>Total Vulnerabilities</h2>
+      <div class="value" id="totalVuln">18</div>
+      <p>Detected during audit</p>
+    </div>
+
+    <div class="card">
+      <h2>High Severity</h2>
+      <div class="value high" id="highCount">5</div>
+      <p>Immediate action required</p>
+    </div>
+
+    <div class="card">
+      <h2>Medium Severity</h2>
+      <div class="value medium" id="mediumCount">7</div>
+      <p>Fix within short time</p>
+    </div>
+
+    <div class="card">
+      <h2>Low Severity</h2>
+      <div class="value low" id="lowCount">6</div>
+      <p>Minor security issues</p>
+    </div>
+
+    <div class="card wide">
+      <h2>Security Score</h2>
+      <div class="value" id="securityScore">72%</div>
+      <p>The campus website is moderately secure but needs improvement.</p>
+
+      <div class="chart">
+        <div class="bar">
+          <div id="highBar" style="height: 100px; background:#d32f2f;"></div>
+          <p>High</p>
+        </div>
+
+        <div class="bar">
+          <div id="mediumBar" style="height: 140px; background:#ff9800;"></div>
+          <p>Medium</p>
+        </div>
+
+        <div class="bar">
+          <div id="lowBar" style="height: 120px; background:#2e8b57;"></div>
+          <p>Low</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card wide">
+      <h2>Detected Vulnerabilities</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Vulnerability</th>
+            <th>Description</th>
+            <th>Severity</th>
+          </tr>
+        </thead>
+        <tbody id="vulnTable">
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <div class="footer">
+    Campus Website Security Audit Dashboard © 2026
+  </div>
+
+  <script scr="node.js"></script>
+
+</body>
+</html>
