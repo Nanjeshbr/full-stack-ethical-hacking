@@ -1,0 +1,18 @@
+# install4j response file for Zed Attack Proxy by Checkmarx 2.17.0
+cfu.checkAddOnUpdates$Boolean=true
+cfu.checkForUpdates$Boolean=true
+cfu.downloadNewRelease$Boolean=false
+cfu.installAddonUpdates$Boolean=true
+cfu.installScannerRules$Boolean=true
+cfu.reportAlphaAddons$Boolean=true
+cfu.reportBetaAddons$Boolean=true
+cfu.reportReleaseAddons$Boolean=true
+createDesktopLinkAction$Boolean=true
+createQuicklaunchIconAction$Boolean=false
+installationType$Integer=1
+sys.adminRights$Boolean=true
+sys.installationDir=D\:\\Ethical hacking mini project 4th sem\\OWASP ZAP
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=ZAP

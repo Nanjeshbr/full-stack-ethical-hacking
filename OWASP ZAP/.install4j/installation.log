@@ -1,0 +1,522 @@
+[INFO] Logger started at 2026-04-12 19:02:59
+[INFO] Executable name: D:\Ethical hacking mini project 4th sem\ZAP_2_17_0_windows.exe
+[INFO] install4j version: 10.0.8 (build 10152)
+[INFO] Properties: 
+-- listing properties --
+java.specification.version=25
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\nanje\AppData\Local\Temp\e4j...
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+install4j.exeDir=D:\Ethical hacking mini project 4th sem\
+user.variant=
+java.vendor.url=https://java.oracle.com/
+user.timezone=Asia/Calcutta
+java.vm.specification.version=25
+os.name=Windows 11
+user.country=IN
+sun.boot.library.path=c:\program files\java\jdk-25\bin
+sun.java.command=D:\Ethical hacking mini project 4th s...
+jdk.debug=release
+sun.cpu.endian=little
+exe4j.unextractedPosition=4762006
+user.home=C:\Users\nanje
+user.language=en
+jdk.http.auth.tunneling.disabledSchemes=
+java.specification.vendor=Oracle Corporation
+java.version.date=2025-10-21
+java.home=c:\program files\java\jdk-25
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+jdk.lang.Process.allowAmbiguousCommands=false
+exe4j.moduleName=D:\Ethical hacking mini project 4th s...
+exe4j.tempDir=C:\Users\nanje\AppData\Local\Temp\e4j...
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=25.0.1+8-LTS-27
+user.name=nanje
+stdout.encoding=Cp1252
+path.separator=;
+os.version=10.0
+java.runtime.name=Java(TM) SE Runtime Environment
+file.encoding=UTF-8
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+exe4j.semaphoreName=Local\d:_ethical_hacking_mini_project...
+install4j.appDir=C:\Users\nanje\AppData\Local\Temp\
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=C:\Users\nanje\AppData\Local\Temp\
+java.version=25.0.1
+user.dir=C:\Users\nanje\AppData\Local\Temp\e4j...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+native.encoding=Cp1252
+java.library.path=c:\program files\java\jdk-25\bin;C:\U...
+java.vm.info=mixed mode, sharing
+stderr.encoding=Cp1252
+java.vendor=Oracle Corporation
+java.vm.version=25.0.1+8-LTS-27
+stdin.encoding=Cp1252
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=69.0
+exe4j.launchName=D:\Ethical hacking mini project 4th s...
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property linuxPrivilegeRequirement: Require root
+       Property failIfNotObtainedLinux: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: true
+       Property obtainIfAdminMac: true
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: true
+       Property obtainIfNormalWin: true
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Starting elevated helper
+       Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+       Execute action successful after 6707 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 248]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_46
+       Property rollbackSupported: false
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+       Variable changed: sys.programGroupName=ZAP\Zed Attack Proxy[class java.lang.String]
+       Execute action successful after 19 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 821]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_47
+       Property rollbackSupported: false
+       Execute action successful after 7 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] checking writable with maximum
+[INFO] Variable changed: sys.confirmedUpdateInstallation=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 3]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: false
+       Variable changed: sys.programGroupName=ZAP[class java.lang.String]
+       Variable changed: sys.languageId=en[class java.lang.String]
+       Variable changed: cfu.reportReleaseAddons=true[class java.lang.Boolean]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: cfu.reportBetaAddons=true[class java.lang.Boolean]
+       Variable changed: cfu.downloadNewRelease=false[class java.lang.Boolean]
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+       Variable changed: cfu.checkAddOnUpdates=true[class java.lang.Boolean]
+       Variable changed: installationType=1[class java.lang.Integer]
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Variable changed: cfu.reportAlphaAddons=true[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+       Variable changed: createQuicklaunchIconAction=false[class java.lang.Boolean]
+       Variable changed: cfu.checkForUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.installAddonUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.installScannerRules=true[class java.lang.Boolean]
+       Execute action successful after 23 ms
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=ZAP[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 236]: Show screen
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+       Variable changed: createQuicklaunchIconAction=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 236]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 59]: Show screen
+       Variable changed: cfu.checkForUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.downloadNewRelease=false[class java.lang.Boolean]
+       Variable changed: cfu.checkAddOnUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.installAddonUpdates=true[class java.lang.Boolean]
+       Variable changed: cfu.installScannerRules=true[class java.lang.Boolean]
+       Variable changed: cfu.reportReleaseAddons=true[class java.lang.Boolean]
+       Variable changed: cfu.reportBetaAddons=true[class java.lang.Boolean]
+       Variable changed: cfu.reportAlphaAddons=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 59]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 242]: Show screen
+       Variable changed: installationSummary=Destination location:
+    ${installer:sys.contentDir}
+
+Start Menu folder:
+    ${installer:sys.programGroupName}
+
+Additional tasks:
+    Additional icons:
+        Create a desktop icon
+
+Check for Updates:
+  Check for updates on startup: Yes
+  Automatically download new ZAP releases: No
+  Check for updates to the add-ons you have installed: Yes
+  Automatically install updates to the add-ons you have installed: Yes
+  Automatically install updates to the scan rules you have installed: Yes
+  Report new Release status add-ons: Yes
+  Report new Beta status add-ons: Yes
+  Report new Alpha status add-ons: Yes
+[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 242]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 820]: Execute action
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: false
+       Property rollbackSupported: false
+       Property uninstallServices: true
+       checking running processes
+       checking running processes ok
+[ERROR] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 820]: com.install4j.api.beans.UndefinedVariableException: installer:uninstallOldDir
+com.install4j.api.beans.UndefinedVariableException: installer:uninstallOldDir
+	at com.install4j.runtime.installer.InstallerVariables.handleError(InstallerVariables.java:1304)
+	at com.install4j.runtime.installer.InstallerVariables$InstallerReplacementCallback.getReplacement(InstallerVariables.java:1237)
+	at com.install4j.runtime.util.StringUtil.replaceVariable(StringUtil.java:94)
+	at com.install4j.runtime.util.StringUtil.replaceVariable(StringUtil.java:64)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:419)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:408)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:404)
+	at com.install4j.runtime.installer.InstallerVariables.replaceVariables(InstallerVariables.java:444)
+	at com.install4j.api.beans.AbstractBean.replaceVariables(AbstractBean.java:91)
+	at com.install4j.runtime.beans.actions.UninstallPreviousAction.getInstallationDirectory(UninstallPreviousAction.java:61)
+	at com.install4j.runtime.beans.actions.UninstallPreviousAction.install(UninstallPreviousAction.java:104)
+	at com.install4j.runtime.installer.ContextImpl$7.executeAction(ContextImpl.java:1775)
+	at com.install4j.runtime.installer.ContextImpl$7.fetchValue(ContextImpl.java:1765)
+	at com.install4j.runtime.installer.ContextImpl$7.fetchValue(ContextImpl.java:1762)
+	at com.install4j.runtime.installer.helper.comm.actions.FetchObjectAction.execute(FetchObjectAction.java:14)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionDirect(HelperCommunication.java:292)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionInt(HelperCommunication.java:267)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.executeActionChecked(HelperCommunication.java:205)
+	at com.install4j.runtime.installer.helper.comm.HelperCommunication.fetchObjectChecked(HelperCommunication.java:188)
+	at com.install4j.runtime.installer.ContextImpl.performActionIntStatic(ContextImpl.java:1762)
+	at com.install4j.runtime.installer.InstallerContextImpl.performActionInt(InstallerContextImpl.java:166)
+	at com.install4j.runtime.installer.ContextImpl.performAction(ContextImpl.java:1173)
+	at com.install4j.runtime.installer.controller.Controller.executeAction(Controller.java:420)
+	at com.install4j.runtime.installer.controller.Controller.executeActions(Controller.java:386)
+	at com.install4j.runtime.installer.controller.Controller.handleCommand(Controller.java:240)
+	at com.install4j.runtime.installer.controller.Controller.start(Controller.java:142)
+	at com.install4j.runtime.installer.Installer.runInProcess(Installer.java:75)
+	at com.install4j.runtime.installer.Installer.main(Installer.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:84)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+        Execute action not successful after 187 ms
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 169]: Execute action
+       Property installationDirectory: null
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: true
+       Property rollbackSupported: false
+       Property uninstallServices: true
+       checking running processes
+       checking running processes ok
+       previous installation id at D:\Ethical hacking mini project 4th sem\OWASP ZAP: ZAP
+       starting uninstaller
+       execute directly
+[INFO] com.install4j.runtime.installer.helper.launching.LaunchHelper: return value is 1
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 169]: native uninstaller process returned 1
+       deleting remaining files from i4j_undel.log.tmp, false
+       see uninstallPrevious.log for the log file of the uninstaller
+       Variable changed: sys.undeletedUninstallFiles=null
+       finished
+[ERROR] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 169]: Execute action not successful after 4228 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property validateApplicationId: false
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\ZAP.exe; size: 188928 bytes; exists: true
+       File options set to: [fileTime: Mon Dec 15 18:33:14 IST 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\alertFilters-release-26.zap; size: 594584 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\ascanrules-release-78.zap; size: 4641328 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\authhelper-beta-0.34.0.zap; size: 1556064 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\automation-beta-0.58.0.zap; size: 2150219 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\bruteforce-beta-20.zap; size: 554460 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\callhome-release-0.20.0.zap; size: 326709 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\client-alpha-0.20.0.zap; size: 2784989 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\commonlib-release-1.39.0.zap; size: 11878908 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\database-alpha-0.9.0.zap; size: 23342827 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\diff-beta-18.zap; size: 693652 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\directorylistv1-release-9.zap; size: 961164 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\domxss-release-23.zap; size: 286682 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\encoder-release-1.8.0.zap; size: 506276 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\exim-beta-0.16.0.zap; size: 1140767 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\formhandler-beta-6.8.0.zap; size: 2128991 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\fuzz-beta-13.16.0.zap; size: 2014901 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\gettingStarted-release-20.zap; size: 968767 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\graaljs-alpha-0.12.0.zap; size: 27817739 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\graphql-alpha-0.29.0.zap; size: 5643568 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\help-release-22.zap; size: 647250 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\hud-beta-0.19.0.zap; size: 1382692 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\insights-alpha-0.0.1.zap; size: 57558 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\invoke-beta-17.zap; size: 322515 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\network-beta-0.25.0.zap; size: 28165092 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\oast-beta-0.24.0.zap; size: 914676 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\onlineMenu-release-15.zap; size: 208866 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\openapi-beta-48.zap; size: 11688307 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\postman-alpha-0.9.0.zap; size: 289315 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\pscan-alpha-0.6.0.zap; size: 686354 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\pscanrules-release-70.zap; size: 1993526 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\quickstart-release-53.zap; size: 777376 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\replacer-release-21.zap; size: 447555 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\reports-release-0.43.0.zap; size: 16780200 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\requester-beta-7.9.0.zap; size: 765192 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\retest-alpha-0.11.0.zap; size: 259775 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\retire-release-0.52.0.zap; size: 1010069 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\reveal-release-10.zap; size: 239142 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\scanpolicies-alpha-0.7.0.zap; size: 335751 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\scripts-release-45.17.0.zap; size: 10168805 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\selenium-release-15.43.0.zap; size: 34920099 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\sequence-beta-9.zap; size: 1610735 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\soap-beta-29.zap; size: 13139906 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\spider-release-0.18.0.zap; size: 1206016 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\spiderAjax-release-23.29.0.zap; size: 7636237 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\tips-beta-16.zap; size: 574653 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\webdriverwindows-release-170.zap; size: 22281551 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\websocket-release-35.zap; size: 1416303 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\plugin\zest-beta-48.11.0.zap; size: 3047331 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4jdel.exe; size: 95936 bytes; exists: true
+       File options set to: [fileTime: Mon Dec 15 18:33:14 IST 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4jinst.dll; size: 308416 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\README; size: 2167 bytes; exists: true
+       File options set to: [fileTime: Mon Dec 15 18:33:14 IST 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\db\db.properties; size: 737 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\db\hsqldb.properties; size: 12090 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\db\mysql.properties; size: 10407 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\db\mysql.schema; size: 9993 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\db\zapdb.properties; size: 89 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\db\zapdb.script; size: 5020 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages.properties; size: 230521 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ar_SA.properties; size: 282948 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_az_AZ.properties; size: 236157 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_bn_BD.properties; size: 252689 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_bs_BA.properties; size: 233517 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ceb_PH.properties; size: 244482 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_da_DK.properties; size: 229704 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_de_DE.properties; size: 234400 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_el_GR.properties; size: 284459 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_es_ES.properties; size: 272468 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_fa_IR.properties; size: 287204 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_fil_PH.properties; size: 244256 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_fr_FR.properties; size: 251717 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ha_HG.properties; size: 227979 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_he_IL.properties; size: 235605 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_hi_IN.properties; size: 228700 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_hr_HR.properties; size: 228278 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_hu_HU.properties; size: 237450 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_id_ID.properties; size: 232821 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_it_IT.properties; size: 243083 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ja_JP.properties; size: 401474 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ko_KR.properties; size: 243877 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_mk_MK.properties; size: 227979 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ms_MY.properties; size: 229031 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_nb_NO.properties; size: 227980 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_nl_NL.properties; size: 233937 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_pcm_NG.properties; size: 228551 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_pl_PL.properties; size: 236660 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_pt_BR.properties; size: 253490 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_pt_PT.properties; size: 232341 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ro_RO.properties; size: 233237 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ru_RU.properties; size: 616127 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_si_LK.properties; size: 228782 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_sk_SK.properties; size: 228474 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_sl_SI.properties; size: 229188 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_sq_AL.properties; size: 228445 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_sr_CS.properties; size: 228501 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_sr_SP.properties; size: 228250 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_tr_TR.properties; size: 259546 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_uk_UA.properties; size: 599492 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_ur_PK.properties; size: 247498 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_vi_VN.properties; size: 228521 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_yo_NG.properties; size: 227962 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_zh_CN.properties; size: 300034 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lang\Messages_zh_TW.properties; size: 236845 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-beanutils-1.11.0.jar; size: 246806 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-codec-1.20.0.jar; size: 401021 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-collections-3.2.2.jar; size: 588337 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-configuration-1.10.jar; size: 362679 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-csv-1.14.1.jar; size: 60964 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-httpclient-3.1.jar; size: 305001 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-io-2.21.0.jar; size: 585274 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-lang-2.6.jar; size: 284220 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-lang3-3.19.0.jar; size: 709075 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-logging-1.3.5.jar; size: 73737 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\commons-text-1.14.0.jar; size: 259876 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\ezmorph-1.0.6.jar; size: 86487 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\flatlaf-3.7.jar; size: 1018560 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\flatlaf-swingx-3.7.jar; size: 40210 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\harlib-1.1.3.jar; size: 123713 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\hsqldb-2.7.4.jar; size: 1662185 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\jackson-core-asl-1.9.13.jar; size: 232248 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\java-semver-0.10.2.jar; size: 52003 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\javahelp-2.0.05.jar; size: 562749 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\jericho-html-3.4.jar; size: 238398 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\jfreechart-1.5.6.jar; size: 1652288 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\jgrapht-core-0.9.2.jar; size: 397223 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\json-lib-2.4-jdk15.jar; size: 159123 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\log4j-1.2-api-2.25.2.jar; size: 358528 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\log4j-api-2.25.2.jar; size: 349595 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\log4j-core-2.25.2.jar; size: 2018265 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\log4j-jul-2.25.2.jar; size: 31959 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\rsyntaxtextarea-3.6.0.jar; size: 1330192 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\swingx-all-1.6.5-1.jar; size: 1495328 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\lib\xom-1.3.9.jar; size: 326351 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\ApacheLicense-2.0.txt; size: 11358 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\COPYING; size: 26992 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\OFL.txt; size: 4599 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\RSyntaxTextArea.License.txt; size: 1492 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\TheClarifiedArtisticLicense.htm; size: 7400 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\TheClarifiedArtisticLicense.rtf; size: 7228 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\gpl-2.0.txt; size: 18092 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\hsqldb_lic.txt; size: 1602 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\hypersonic_lic.txt; size: 3368 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\license\lgpl-3.0.txt; size: 7651 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\uninstall.exe; size: 585728 bytes; exists: true
+       File options set to: [fileTime: Mon Dec 15 18:33:14 IST 2025, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Windows version info marks file as older.
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\xml\config.xml; size: 3881 bytes; exists: true
+       File options set to: [fileTime: Mon Dec 15 18:33:14 IST 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\xml\drivers.dtd; size: 170 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\xml\reportCompare.xsl; size: 3054 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\zap-2.17.0.jar; size: 5542639 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\zap.bat; size: 188 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\zap.ico; size: 123778 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\zap.sh; size: 5107 bytes; exists: true
+       File options set to: [fileTime: Mon Dec 15 18:33:14 IST 2025, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\inst_jre.cfg; size: 30 bytes; exists: true
+       File options set to: [fileTime: Sun Apr 12 19:03:35 IST 2026, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4jruntime.jar; size: 2107155 bytes; exists: true
+       File options set to: [fileTime: Sun Apr 12 19:03:35 IST 2026, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\MessagesDefault; size: 34826 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4jparams.conf; size: 106328 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\stats.properties; size: 1276 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\uninstallPrevious.log; size: 0 bytes; exists: false
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\user.jar; size: 21583 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\user\flatlaf.jar; size: 758100 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_0_7vk7gk.utf8; size: 34826 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_10_7vk7gk.utf8; size: 37661 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_11_7vk7gk.utf8; size: 35446 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_12_7vk7gk.utf8; size: 36311 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_13_7vk7gk.utf8; size: 37556 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_14_7vk7gk_dcvdhj.png; size: 816 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_15_7vk7gk_1pa6cgr.png; size: 1933 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_16_7vk7gk_16vgtkw.png; size: 3600 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_17_7vk7gk_6twyc5.png; size: 10790 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_18_7vk7gk.txt; size: 11358 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_19_7vk7gk_18mu4rr.ico; size: 123778 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_1_7vk7gk.properties; size: 3146 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_20_7vk7gk_1gk1b9c.png; size: 63628 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_21_7vk7gk_18gg8kx.png; size: 9202 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_21_7vk7gk_18gg8kx@2x.png; size: 15419 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_21_7vk7gk_18gg8kx@2x_dark.png; size: 15837 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_21_7vk7gk_18gg8kx_dark.png; size: 8891 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_2_7vk7gk.utf8; size: 33865 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_3_7vk7gk.utf8; size: 38929 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_4_7vk7gk.utf8; size: 37408 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_5_7vk7gk.utf8; size: 48914 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_6_7vk7gk.utf8; size: 36823 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_7_7vk7gk.utf8; size: 37297 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_8_7vk7gk.utf8; size: 44212 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\i4j_extf_9_7vk7gk.utf8; size: 34760 bytes; exists: true
+       Install file: D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\installer.ico; size: 123778 bytes; exists: true
+       Backing up D:\Ethical hacking mini project 4th sem\OWASP ZAP\.install4j\response.varfile
+       Execute action successful after 4896 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: [com.install4j.runtime.beans.screens.components.ProgramGroupUrlConfig@6e0f5f7f]
+       Property programGroupName: ZAP
+       Property uninstallerMenuName: Zed Attack Proxy by Checkmarx Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ZAP\Zed Attack Proxy by Checkmarx Uninstaller.lnk; size: 1009 bytes; exists: true
+       File options set to: [fileTime: Sun Apr 12 19:03:35 IST 2026, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ZAP\ZAP 2.17.0.lnk; size: 973 bytes; exists: true
+       File options set to: [fileTime: Sun Apr 12 19:03:36 IST 2026, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ZAP\ZAP homepage.url; size: 175 bytes; exists: true
+       File options set to: [fileTime: Sun Apr 12 19:03:36 IST 2026, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 460 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateDesktopLinkAction [ID 235]: Execute action
+       Property additionalDesktopFileEntries: 
+       Property arguments: 
+       Property description: 
+       Property file: ZAP.exe
+       Property name: ZAP 2.17.0
+       Property startIn: null
+       Property unixIconFile: i4j_extf_20_7vk7gk_1gk1b9c.png
+       Property winIconFile: i4j_extf_19_7vk7gk_18mu4rr.ico
+       Property allUsers: true
+       Property macSingleBundleTarget: false
+       Property rollbackSupported: true
+       Property runAsAdministrator: false
+       Install file: C:\Users\Public\Desktop\ZAP 2.17.0.lnk; size: 1041 bytes; exists: true
+       File options set to: [fileTime: Sun Apr 12 19:03:36 IST 2026, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 152 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: Zed Attack Proxy by Checkmarx 2.17.0
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 84 ms
+[INFO] com.install4j.runtime.beans.actions.xml.InsertXmlFragmentAction [ID 570]: Execute action
+       Property files: [xml\config.xml]
+       Property fragmentFile: null
+       Property fragmentInsertMode: Insert as first child
+       Property fragmentSource: Direct entry
+       Property fragmentText: <start>
+	<checkForUpdates>true</checkForUpdates>
+	<downloadNewRelease>false</downloadNewRelease>
+	<checkAddonUpdates>true</checkAddonUpdates>
+	<installAddonUpdates>true</installAddonUpdates>
+	<installScannerRules>true</installScannerRules>
+	<reportReleaseAddons>true</reportReleaseAddons>
+	<reportBetaAddons>true</reportBetaAddons>
+	<reportAlphaAddons>true</reportAlphaAddons>
+</start>
+       Property xpathExpression: /config
+       Property downloadExternalEntities: false
+       Property rollbackSupported: true
+       Property validating: false
+       Backing up D:\Ethical hacking mini project 4th sem\OWASP ZAP\xml\config.xml
+       Execute action successful after 132 ms
+[INFO] com.install4j.runtime.beans.actions.text.WriteTextFileAction [ID 635]: Execute action
+       Property encoding: 
+       Property file: ZAP.desktop
+       Property text: [logging of replacement text is disabled]
+       Property append: true
+       Property escaped: false
+       Property logText: false
+       Property rollbackSupported: true
+       Backing up D:\Ethical hacking mini project 4th sem\OWASP ZAP\ZAP.desktop
+       Execute action successful after 12 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished at 2026-04-12 19:03:38
