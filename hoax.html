@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Totally Normal Website</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #000; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    #screen {
+      background: #0a0a0a;
+      width: 680px;
+      font-family: 'Courier New', monospace;
+      color: #00ff41;
+      border-radius: 10px;
+      border: 1.5px solid #00ff41;
+      overflow: hidden;
+    }
+    #topbar {
+      background: #00ff41;
+      color: #000;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 6px 16px;
+      display: flex;
+      justify-content: space-between;
+    }
+    #console {
+      padding: 16px;
+      font-size: 13px;
+      line-height: 1.8;
+      min-height: 300px;
+    }
+    .line { display: block; }
+    .red { color: #ff3b3b; }
+    .yellow { color: #f5c400; }
+    .green { color: #00ff41; }
+    .white { color: #eee; }
+    #progressbar-wrap { padding: 0 16px 12px; }
+    #progressbar {
+      height: 12px;
+      background: #1a1a1a;
+      border: 1px solid #00ff41;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    #progressfill {
+      height: 100%;
+      width: 0%;
+      background: #00ff41;
+      transition: width 0.3s;
+    }
+    #progresslabel { font-size: 12px; color: #00ff41; margin-top: 4px; }
+    #skull { text-align: center; font-size: 52px; padding: 8px; display: none; }
+    #reveal {
+      display: none;
+      text-align: center;
+      padding: 24px 16px 16px;
+      color: #f5c400;
+      font-size: 18px;
+      line-height: 2;
+    }
+    #reveal .sub { font-size: 13px; color: #aaa; margin-top: 4px; }
+    #restart-btn {
+      display: none;
+      margin: 12px auto;
+      padding: 8px 24px;
+      background: transparent;
+      border: 1px solid #00ff41;
+      color: #00ff41;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    #restart-btn:hover { background: #00ff4122; }
+  </style>
+</head>
+<body>
+  <div id="screen">
+    <div id="topbar">
+      <span>SYSTEM ALERT — TERMINAL v3.1.4</span>
+      <span id="clock">00:00:00</span>
+    </div>
+    <div id="console"></div>
+    <div id="progressbar-wrap">
+      <div id="progressbar"><div id="progressfill"></div></div>
+      <div id="progresslabel">initializing...</div>
+    </div>
+    <div id="skull">💀</div>
+    <div id="reveal">
+      🎉 GOTCHA! 🎉<br>
+      Your computer is totally fine.<br>
+      <span class="sub">This was a prank. No files were harmed. You may now breathe.</span>
+    </div>
+    <button id="restart-btn" onclick="restart()">[ RUN AGAIN ]</button>
+  </div>
+
+  <script>
+    const lines = [
+      { text: "> Initializing DARKSCANNER 9000...", cls: "green", delay: 0 },
+      { text: "> Scanning file system...", cls: "green", delay: 700 },
+      { text: "> Found: 38,412 files", cls: "white", delay: 1200 },
+      { text: "> WARNING: Suspicious activity detected!", cls: "yellow", delay: 1900 },
+      { text: "> Tracing IP address: 192.168.x.xxx... FOUND", cls: "red", delay: 2700 },
+      { text: "> Accessing browser history... DONE", cls: "red", delay: 3400 },
+      { text: "> Uploading cookies to remote server...", cls: "yellow", delay: 4100 },
+      { text: "> Encrypting C:\\Users\\YOU\\Documents\\....", cls: "red", delay: 4900 },
+      { text: "> Contacting mothership... CONNECTED", cls: "red", delay: 5700 },
+      { text: "> STATUS: TOTAL ANNIHILATION IN PROGRESS", cls: "red", delay: 6400 },
+    ];
+
+    const con = document.getElementById('console');
+    const fill = document.getElementById('progressfill');
+    const label = document.getElementById('progresslabel');
+    const skull = document.getElementById('skull');
+    const reveal = document.getElementById('reveal');
+    const restartBtn = document.getElementById('restart-btn');
+    const clockEl = document.getElementById('clock');
+
+    let timers = [];
+
+    setInterval(() => {
+      clockEl.textContent = new Date().toLocaleTimeString('en-GB');
+    }, 1000);
+
+    function restart() {
+      timers.forEach(clearTimeout);
+      timers = [];
+      con.innerHTML = '';
+      fill.style.width = '0%';
+      fill.style.background = '#00ff41';
+      label.textContent = 'initializing...';
+      skull.style.display = 'none';
+      reveal.style.display = 'none';
+      restartBtn.style.display = 'none';
+      start();
+    }
+
+    function start() {
+      lines.forEach((l, i) => {
+        let t = setTimeout(() => {
+          let span = document.createElement('span');
+          span.className = 'line ' + l.cls;
+          span.textContent = l.text;
+          con.appendChild(span);
+          con.scrollTop = con.scrollHeight;
+          let pct = Math.round(((i + 1) / lines.length) * 100);
+          fill.style.width = pct + '%';
+          label.textContent = pct + '% complete';
+        }, l.delay);
+        timers.push(t);
+      });
+
+      timers.push(setTimeout(() => { skull.style.display = 'block'; }, 7200));
+      timers.push(setTimeout(() => {
+        skull.style.display = 'none';
+        reveal.style.display = 'block';
+        restartBtn.style.display = 'block';
+        label.textContent = 'prank complete :)';
+        fill.style.background = '#f5c400';
+      }, 8800));
+    }
+
+    start();
+  </script>
+</body>
+</html>

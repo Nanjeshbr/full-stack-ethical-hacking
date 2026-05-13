@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Camera Recorder</title>
+
+  <style>
+    body{
+      background:#111;
+      color:white;
+      text-align:center;
+      font-family:Arial;
+    }
+
+    video{
+      width:500px;
+      margin-top:20px;
+      border:3px solid cyan;
+    }
+
+    button{
+      padding:12px 20px;
+      margin:10px;
+      font-size:18px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🎥 Camera Recorder Demo</h1>
+
+<video id="preview" autoplay muted></video>
+
+<br>
+
+<button onclick="startCamera()">
+Start Camera
+</button>
+
+<button onclick="startRecording()">
+Start Recording
+</button>
+
+<button onclick="stopRecording()">
+Stop Recording
+</button>
+
+<br>
+
+<a id="downloadLink" style="color:cyan;"></a>
+
+<script>
+
+let mediaRecorder;
+let recordedChunks = [];
+let stream;
+
+async function startCamera(){
+
+    stream = await navigator.mediaDevices.getUserMedia({
+        video:true,
+        audio:true
+    });
+
+    document.getElementById("preview").srcObject = stream;
+}
+
+function startRecording(){
+
+    recordedChunks = [];
+
+    mediaRecorder = new MediaRecorder(stream);
+
+    mediaRecorder.ondataavailable = function(event){
+
+        if(event.data.size > 0){
+            recordedChunks.push(event.data);
+        }
+    };
+
+    mediaRecorder.onstop = function(){
+
+        const blob = new Blob(recordedChunks,{
+            type:'video/webm'
+        });
+
+        const url = URL.createObjectURL(blob);
+
+        const link = document.getElementById("downloadLink");
+
+        link.href = url;
+
+        link.download = "recording.webm";
+
+        link.innerHTML = "Download Recording";
+    };
+
+    mediaRecorder.start();
+
+    alert("Recording Started");
+}
+
+function stopRecording(){
+
+    mediaRecorder.stop();
+
+    alert("Recording Stopped");
+}
+
+</script>
+
+</body>
+</html>
